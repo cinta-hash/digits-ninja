@@ -6,3 +6,6 @@
     @apply font-bold font-mono text-xl md:text-3xl text-red-700 md:px-4 md:py-4;
    
 }
+.btn{
+    @apply bg-red-400 text-white font-bold text-lg rounded-md w-12 h-12 container col-span-1;
+}
