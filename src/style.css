@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.footer{
+    @apply font-bold font-mono text-xl md:text-3xl text-red-700 md:px-4 md:py-4;
+   
+}
