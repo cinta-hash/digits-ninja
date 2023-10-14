@@ -17,16 +17,9 @@
     </header>
     <!--the calculator -->
     <div class="container bg-black w-3/4 h-auto mt-10 max-w-md border-4 rounded-md shadow-md shadow-red-400 border-red-950 p-4 md:w-4/6">
-        <div id="display" class="bg-white text-end px-4 rounded-md border-b-4 border-red-950">
-            <span class="text-3xl font-bold p-4">0</span>
-        </div>
-        <div id="calculations" class="bg-white text-end px-4 rounded-md border-b-4 border-red-950">
-            <span class="text-3xl font-bold p-4">0</span>
-        </div>
-
+        <div id="displayNum" class="bg-white text-end px-4 h-20 rounded-md border-b-4 font-bold text-4xl border-red-950">0</div>
         <div class="grid grid-cols-4 gap-2">
-            <button class="btn">CE</button>
-            <button class=" btn">x</button>
+            <button class="bg-red-400 hover:bg-red-500 text-white font-semibold text-lg active:bg-red-800 rounded-md w-28 h-12 container md:w-48 md:h-20 md:col-span-2 col-span-2 md:text-3xl" id="clear">AC</button>
             <button class=" btn">/</button>
             <button class=" btn">*</button>
             <button class=" btn">9</button>
@@ -40,9 +33,9 @@
             <button class=" btn">3</button>
             <button class=" btn">2</button>
             <button class=" btn">1</button>
-            <button class="bg-red-400 text-white font-bold text-lg rounded-md w-12 h-28 container md:row-span-2 md:w-20 md:h-40 row-span-2">+</button>
+            <button id="add" class="bg-red-400 hover:bg-red-500 text-white font-semibold text-lg active:bg-red-800 rounded-md w-12 h-28 container md:row-span-2 md:w-20 md:h-40 row-span-2 md:text-3xl">+</button>
             <button class=" btn">0</button>
-            <button class="bg-red-400 text-white font-bold text-lg rounded-md w-28 h-12 container md:w-48 md:h-20 md:col-span-2 col-span-2">=</button>
+            <button id="equals" class="bg-red-400 hover:bg-red-500 text-white font-semibold text-lg active:bg-red-800 rounded-md w-28 h-12 container md:w-48 md:h-20 md:col-span-2 col-span-2 md:text-3xl">=</button>
         </div>
 
     </div>
